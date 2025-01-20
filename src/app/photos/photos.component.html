@@ -1,0 +1,29 @@
+<div class="container mt-5">
+  <h2 class="text-center text-primary mb-4">📸 Galerie de Photos</h2>
+  <p class="text-muted text-center mb-5">
+    Découvrez les paysages, traditions et monuments uniques de notre ville tunisienne.
+  </p>
+
+  <!-- Bouton Retour -->
+  <div class="text-center mb-4">
+    <button class="btn btn-outline-primary" routerLink="/">⬅️ Retour à l'accueil</button>
+  </div>
+
+  <!-- Galerie de photos -->
+  <div class="row">
+    <div class="col-md-4 mb-4" *ngFor="let photo of photos">
+      <div class="card shadow-lg border-0 rounded custom-card">
+        <img [src]="photo.url" class="card-img-top rounded-top" [alt]="photo.title" width="400px" height="400px">
+        <div class="card-body bg-light">
+          <h5 class="card-title text-center text-primary">{{ photo.title }}</h5>
+          <p class="card-text text-muted text-center">{{ photo.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bouton Retour en bas (optionnel) -->
+  <div class="text-center mt-4">
+    <button class="btn btn-outline-primary" routerLink="/">⬅️ Retour à l'accueil</button>
+  </div>
+</div>

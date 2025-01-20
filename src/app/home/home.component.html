@@ -1,0 +1,21 @@
+<div class="container text-center mt-5">
+  <div class="p-4 rounded shadow-lg bg-light">
+    <img src="assets/homePage.jpg" alt="Capture d'écran" class="img-fluid rounded mb-4" width="450px">
+    <h1 class="text-primary">Découvrez l'Histoire de notre Ville</h1>
+    <p class="text-muted">
+      Plongez dans les traditions, coutumes et récits d'une ville tunisienne riche en culture et patrimoine.
+    </p>
+    <div class="mt-4">
+      <button class="btn btn-primary m-2 px-4 py-2" (click)="telechargerPDF()">
+        <i class="bi bi-file-earmark-arrow-down"></i> Télécharger le PDF
+      </button>
+      <button class="btn btn-secondary m-2 px-4 py-2" routerLink="/photos">
+        <i class="bi bi-images"></i> Galerie de photos
+      </button>
+      <button class="btn btn-success m-2 px-4 py-2" routerLink="/videos">
+        <i class="bi bi-camera-reels"></i> Galerie de vidéos
+      </button>
+    </div>
+    
+  </div>
+</div>

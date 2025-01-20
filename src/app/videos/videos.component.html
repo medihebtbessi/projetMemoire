@@ -1,0 +1,26 @@
+<div class="container mt-5">
+  <h2 class="text-center text-primary mb-4">🎥 Galerie de Vidéos</h2>
+  <p class="text-muted text-center mb-5">
+    Explorez nos vidéos mettant en avant les traditions et la beauté de notre ville tunisienne.
+  </p>
+  <!-- Bouton Retour -->
+  <div class="text-center mb-4">
+    <button class="btn btn-outline-primary" routerLink="/">⬅️ Retour à l'accueil</button>
+  </div>
+  <!-- Galerie de vidéos -->
+  <div class="row">
+    <div class="col-md-6 mb-4" *ngFor="let video of videos">
+      <div class="card shadow-lg border-0 rounded custom-card">
+        <video [src]="video.url" controls class="card-img-top rounded-top" width="500" height="300"></video>
+        <div class="card-body bg-light">
+          <h5 class="card-title text-center text-primary">{{ video.title }}</h5>
+          <p class="card-text text-muted text-center">{{ video.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bouton Retour en bas (optionnel) -->
+  <div class="text-center mt-4">
+    <button class="btn btn-outline-primary" routerLink="/">⬅️ Retour à l'accueil</button>
+  </div>
+</div>

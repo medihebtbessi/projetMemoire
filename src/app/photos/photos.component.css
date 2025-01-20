@@ -1,0 +1,58 @@
+/* Arrière-plan de la page */
+body {
+    background-color: #fdf5e6; /* Couleur douce rappelant les teintes de sable tunisien */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Titres principaux */
+  .text-primary {
+    color: #007bff; /* Bleu tunisien (comme les portes traditionnelles) */
+    font-weight: bold;
+  }
+  
+  /* Style des cartes */
+  .custom-card {
+    transition: transform 0.3s ease-in-out;
+    background: #fffdf6; /* Fond léger inspiré des maisons tunisiennes */
+    border: 2px solid #007bff; /* Encadrement bleu traditionnel */
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05); /* Zoom au survol */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Images */
+  .card-img-top {
+    border-bottom: 5px solid #007bff; /* Séparation décorative sous l'image */
+  }
+  
+  /* Titres et descriptions des photos */
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+
+ 
+
+  button.btn-outline-primary {
+    border-radius: 25px; /* Boutons arrondis */
+    padding: 10px 20px; /* Espacement interne */
+    font-size: 1rem; /* Taille du texte */
+    transition: all 0.3s ease; /* Animation au survol */
+  }
+  
+  button.btn-outline-primary:hover {
+    background-color: #007bff; /* Fond bleu */
+    color: #fff; /* Texte blanc */
+  }
+  
+
+  
+  
+  

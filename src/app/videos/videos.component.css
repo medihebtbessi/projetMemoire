@@ -1,0 +1,62 @@
+/* Arrière-plan de la page */
+body {
+    background-color: #faf3e0; /* Couleur inspirée du sable tunisien */
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Titre principal */
+  .text-primary {
+    color: #007bff; /* Bleu inspiré des portes tunisiennes */
+    font-weight: bold;
+  }
+  
+  /* Style des cartes */
+  .custom-card {
+    transition: transform 0.3s ease-in-out;
+    background: #fffdf6; /* Couleur douce inspirée des maisons tunisiennes */
+    border: 2px solid #007bff; /* Bordure bleue élégante */
+    border-radius: 15px; /* Coins arrondis */
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05); /* Zoom léger au survol */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Ombre élégante */
+  }
+  
+  /* Vidéo */
+  .card-img-top {
+    border-bottom: 3px solid #007bff; /* Séparation décorative sous la vidéo */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  /* Titres et descriptions des vidéos */
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff; /* Bleu tunisien */
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #6c757d; /* Texte doux et lisible */
+  }
+  
+  /* Espace entre les cartes */
+  .card {
+    margin-bottom: 20px;
+  }
+
+  button.btn-outline-primary {
+    border-radius: 25px; /* Bouton arrondi */
+    padding: 10px 20px; /* Espace interne */
+    font-size: 1rem; /* Taille du texte */
+    transition: all 0.3s ease; /* Animation au survol */
+  }
+  
+  button.btn-outline-primary:hover {
+    background-color: #007bff; /* Fond bleu */
+    color: #fff; /* Texte blanc */
+  }
+  
+  
